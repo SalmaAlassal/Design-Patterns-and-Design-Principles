@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # Liskov Substitution Principle (LSP)
 
 **Subclasses should be substitutable for their base classes.**
@@ -6,10 +20,10 @@
 
 **Substitutability Rules:**
 
-- Child class mustn't remove a base class behavior.
-- Child class mustn't violate base class objects (manipulated behavior).
-- Inheritance can be described as *IS A* but Liskov says it should be described as *IS Substitutable For*.
-- There’s no problem if the child class has extra members but it should not be less (have members with no use or with manipulated behavior).
+* Child class mustn't remove a base class behavior.
+* Child class mustn't violate base class objects (manipulated behavior).
+* Inheritance can be described as _IS A_ but Liskov says it should be described as _IS Substitutable For_.
+* There’s no problem if the child class has extra members but it should not be less (have members with no use or with manipulated behavior).
 
 This means that, given that class B is a subclass of class A, we should be able to pass an object of class B to any method that expects an object of class A and the method should not give any weird output in that case. This is the expected behavior, because when we use inheritance we assume that the child class inherits everything that the superclass has. The child class extends the behavior but never narrows it down.
 
@@ -23,14 +37,13 @@ One of the most famous examples of violating Liskov is when dealing with logical
 
 Square has a Width equal to its Height, so when setting one of them we're also setting the other, but of course this is not explicit for the user of the code and may lead to faulty results.
 
-![Liskov Substitution Principle](/imgs/Example-Liskov-Substitution-Principle.png)
+![Liskov Substitution Principle](../imgs/Example-Liskov-Substitution-Principle.png)
 
 ### Solution
 
 Now we kept only the real common methods in the interface of Shape, which is getArea() in our case, and now the code returned to be completely substitutable again without any violations for LSP, and without any unexpected behaviors.
 
-![Liskov Substitution Principle](/imgs/solution-Liskov-Substitution-Principle.png)
-
+![Liskov Substitution Principle](../imgs/solution-Liskov-Substitution-Principle.png)
 
 ## Another Similar Example in detail
 
@@ -118,3 +131,7 @@ class Demo {
     }
 }
 ```
+
+{% content-ref url="Interface_Segregation_Principle.md" %}
+[Interface\_Segregation\_Principle.md](Interface\_Segregation\_Principle.md)
+{% endcontent-ref %}

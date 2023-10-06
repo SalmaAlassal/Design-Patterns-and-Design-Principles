@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # Single Responsibility Principle (SRP)
 
 **A class should do one thing and therefore it should have only a single reason to change.**
@@ -14,8 +28,12 @@ Merge conflicts are example. They appear when different teams change the same fi
 
 The class Invoice consists of 4 different methods. As the single responsibility principle says, your class or method should have only one responsibility and only one reason to change. So we should split this class.
 
-![Example Single Reponsibility](/imgs/ExampleSingleReponsibility.png)
+![Example Single Reponsibility](../imgs/ExampleSingleReponsibility.png)
 
-![Example Single Reponsibility](/imgs/ExampleSingleReponsibility1.png)
+![Example Single Reponsibility](../imgs/ExampleSingleReponsibility1.png)
 
-![Example Single Reponsibility](/imgs/ExampleSingleReponsibility2.png)
+![Example Single Reponsibility](../imgs/ExampleSingleReponsibility2.png)
+
+{% content-ref url="Open_Closed_Principle.md" %}
+[Open\_Closed\_Principle.md](Open\_Closed\_Principle.md)
+{% endcontent-ref %}

@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # Interface Segregation Principle
 
 **Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces.**
@@ -26,7 +40,6 @@ class Car {
 ```
 
 Now consider that we want to implement a parking lot that is free.
-
 
 ```
 public class FreeParking implements ParkingLot {
@@ -66,6 +79,10 @@ Let's separate or segregate the interfaces.
 
 Also we can even go further and split the PaidParkingLot to support different types of payment.
 
-![Interface Segregation Principle](/imgs/Interface-Segregation-Principle.png)
+![Interface Segregation Principle](../imgs/Interface-Segregation-Principle.png)
 
 Now our model is much more flexible, extendable, and the clients do not need to implement any irrelevant logic because we provide only parking-related functionality in the parking lot interface.
+
+{% content-ref url="Dependency_Inversion_Principle.md" %}
+[Dependency\_Inversion\_Principle.md](Dependency\_Inversion\_Principle.md)
+{% endcontent-ref %}

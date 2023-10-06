@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # Open-Closed Principle (OCP)
 
 **Software modules (such as classes, modules, or functions) should be open for extension but closed for modification.**
@@ -11,7 +25,6 @@ But how are we going to add new functionality without touching the class, you ma
 > We can rely on abstractions instead of concrete classes to achieve this principle as we can implement an infinite number of these abstractions without any problem.
 
 > Changes to the already existing code is not accepted.
-
 
 ## Example - Calculating Area
 
@@ -146,6 +159,10 @@ public class AreaCalculator {
 }
 ```
 
---------------------------
+***
 
 The OCP can be challenging and time-consuming to apply. If you don't anticipate frequent changes to a module, you may not need to apply it initially. However, when you do make changes or extend the module for the second time, it's a good opportunity to refactor and apply the OCP to ensure extensibility and maintainability.
+
+{% content-ref url="Liskov_Substitution_Principle.md" %}
+[Liskov\_Substitution\_Principle.md](Liskov\_Substitution\_Principle.md)
+{% endcontent-ref %}
