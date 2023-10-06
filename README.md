@@ -28,9 +28,10 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 #### Explained
 
+- [Singleton](./creational/singleton.md)
+
 #### To Be Explored
 
-- [Singleton](./creational/singleton.md)
 - [Factory Method](./creational/factory-method.md)
 - [Abstract Factory](./creational/abstract-factory.md)
 - [Builder](./creational/builder.md)
