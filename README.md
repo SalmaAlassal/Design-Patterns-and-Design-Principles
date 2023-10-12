@@ -3,7 +3,6 @@
 Software design principles and design patterns are essential concepts in software engineering that help in creating maintainable, scalable, and flexible code. Understanding and applying these principles and patterns can lead to better code organization, reusability, and easier maintenance.
 
 # SOLID Principles
-
 The SOLID principles represent five fundamental principles of OOP and design that can guide you in creating more robust and maintainable software.
 
 See [SOLID Principles](./SOLID/README.md)
@@ -29,13 +28,14 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 #### Explained
 
 - [Singleton](./creational/singleton.md)
+- [Prototype](./creational/prototype.md)
 
 #### To Be Explored
 
 - [Factory Method](./creational/factory-method.md)
 - [Abstract Factory](./creational/abstract-factory.md)
 - [Builder](./creational/builder.md)
-- [Prototype](./creational/prototype.md)
+
 
 ### 2. Structural patterns
 
