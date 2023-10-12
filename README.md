@@ -29,13 +29,12 @@ Provide object creation mechanisms that increase flexibility and reuse of existi
 
 - [Singleton](./creational/singleton.md)
 - [Prototype](./creational/prototype.md)
+- [Factory Method](./creational/factory-method.md)
 
 #### To Be Explored
 
-- [Factory Method](./creational/factory-method.md)
 - [Abstract Factory](./creational/abstract-factory.md)
 - [Builder](./creational/builder.md)
-
 
 ### 2. Structural patterns
 
