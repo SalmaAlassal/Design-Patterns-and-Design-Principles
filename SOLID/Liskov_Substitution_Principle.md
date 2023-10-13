@@ -9,10 +9,10 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
-# Liskov Substitution Principle (LSP)
+# Liskov Substitution Principle
 
 **Subclasses should be substitutable for their base classes.**
 
@@ -131,7 +131,3 @@ class Demo {
     }
 }
 ```
-
-{% content-ref url="Interface_Segregation_Principle.md" %}
-[Interface\_Segregation\_Principle.md](Interface\_Segregation\_Principle.md)
-{% endcontent-ref %}

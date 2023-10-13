@@ -9,7 +9,7 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
 # Interface Segregation Principle
@@ -82,7 +82,3 @@ Also we can even go further and split the PaidParkingLot to support different ty
 ![Interface Segregation Principle](../imgs/Interface-Segregation-Principle.png)
 
 Now our model is much more flexible, extendable, and the clients do not need to implement any irrelevant logic because we provide only parking-related functionality in the parking lot interface.
-
-{% content-ref url="Dependency_Inversion_Principle.md" %}
-[Dependency\_Inversion\_Principle.md](Dependency\_Inversion\_Principle.md)
-{% endcontent-ref %}

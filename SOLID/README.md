@@ -9,7 +9,7 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
 # SOLID Principles
@@ -39,7 +39,3 @@ Many client-specific interfaces are better than one general-purpose interface. C
 ## [5. Dependency Inversion Principle (DIP)](Dependency\_Inversion\_Principle.md)
 
 Our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
-
-{% content-ref url="Single_Responsibility_Principle.md" %}
-[Single\_Responsibility\_Principle.md](Single\_Responsibility\_Principle.md)
-{% endcontent-ref %}

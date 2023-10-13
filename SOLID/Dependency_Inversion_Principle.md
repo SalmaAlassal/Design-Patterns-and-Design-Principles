@@ -9,10 +9,10 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
-# Dependency Inversion Principle (DIP)
+# Dependency Inversion Principle
 
 **Our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.**
 

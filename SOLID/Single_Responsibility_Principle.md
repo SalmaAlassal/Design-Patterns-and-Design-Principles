@@ -9,10 +9,10 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
-# Single Responsibility Principle (SRP)
+# Single Responsibility Principle
 
 **A class should do one thing and therefore it should have only a single reason to change.**
 
@@ -33,7 +33,3 @@ The class Invoice consists of 4 different methods. As the single responsibility 
 ![Example Single Reponsibility](../imgs/ExampleSingleReponsibility1.png)
 
 ![Example Single Reponsibility](../imgs/ExampleSingleReponsibility2.png)
-
-{% content-ref url="Open_Closed_Principle.md" %}
-[Open\_Closed\_Principle.md](Open\_Closed\_Principle.md)
-{% endcontent-ref %}
