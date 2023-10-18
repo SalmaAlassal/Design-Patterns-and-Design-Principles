@@ -112,10 +112,11 @@ These are higher-level patterns that deal with the overall organization of softw
 
 #### Explained
 
+- [MVC](./Architectural%20Patterns/mvc.md)
+- [Layered Architecture](./Architectural%20Patterns/layered-architecture.md)
+
 #### To Be Explored
 
-- [MVC](./architectural/mvc.md)
-- [Layered Architecture](./architectural/layered-architecture.md)
 - [Client-Server](./architectural/client-server.md)
 - [Pipe-Filter](./architectural/pipe-filter.md)
 - [Service-Oriented Architecture (SOA)](./architectural/service-oriented-architecture.md)
