@@ -10,8 +10,13 @@
 
 
 * [Creational Design Patterns](Design%20Patterns/Creational%20Patterns/README.md)
-  * [Singleton](Design%20Patterns/Creational%20Patterns/Singleton.md)
-  * [Prototype](Design%20Patterns/Creational%20Patterns/Prototype.md)
-  * [Factory Method](Design%20Patterns/Creational%20Patterns/Factory_Method.md)
-  * [Abstract Factory](Design%20Patterns/Creational%20Patterns/Abstract_Factory.md)
-  * [Builder](Design%20Patterns/Creational%20Patterns/Builder.md)
+  * [Singleton](Design%20Patterns/Creational%20Patterns/singleton.md)
+  * [Prototype](Design%20Patterns/Creational%20Patterns/prototype.md)
+  * [Factory Method](Design%20Patterns/Creational%20Patterns/factory-method.md)
+  * [Abstract Factory](Design%20Patterns/Creational%20Patterns/abstract-factory.md)
+  * [Builder](Design%20Patterns/Creational%20Patterns/builder.md)
+
+
+* [Architectural Patterns](Architectural%20Patterns/README.md)
+  * [MVC)](Architectural%20Patterns/mvc.md)
+  * [Layered (n-tier) Architecture](Architectural%20Patterns/layered-architecture.md)
