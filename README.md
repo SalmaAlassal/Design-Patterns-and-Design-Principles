@@ -29,25 +29,26 @@ Software design principles and design patterns are essential concepts in softwar
 
 # [Design Principles](./Design%20Principles/README.md)
 
-## [SOLID Principles](./Design%20Principles/SOLID/README.md)
+## SOLID Principles
 
 The SOLID principles represent five fundamental principles of OOP and design that can guide you in creating more robust and maintainable software.
 
-See [SOLID Principles](./Design%20Principles/SOLID/README.md) for more details.
- - [Single Responsibility Principle](./Design%20Principles/SOLID/Single_Responsibility_Principle.md)
- - [Open-Closed Principle](./Design%20Principles/SOLID/Open_Closed_Principle.md)
- - [Liskov Substitution Principle](./Design%20Principles/SOLID/Liskov_Substitution_Principle.md)
- - [Interface Segregation Principle](./Design%20Principles/SOLID/Interface_Segregation_Principle.md)
- - [Dependency Inversion Principle](./Design%20Principles/SOLID/Dependency_Inversion_Principle.md)
+- [Single Responsibility Principle (SRP)](./Design%20Principles/SOLID/Single_Responsibility_Principle.md)
+- [Open-Closed Principle (OCP)](./Design%20Principles/SOLID/Open_Closed_Principle.md)
+- [Liskov Substitution Principle (LSP)](./Design%20Principles/SOLID/Liskov_Substitution_Principle.md)
+- [Interface Segregation Principle (ISP)](./Design%20Principles/SOLID/Interface_Segregation_Principle.md)
+- [Dependency Inversion Principle (DIP)](./Design%20Principles/SOLID/Dependency_Inversion_Principle.md)
 
 ## Other Design Principles
 
-### To Be Explored
-
-- [Encapsulate What Varies](./Design%20Principles/encapsulate-what-varies.md)
-- [Favor Composition Over Inheritance](./Design%20Principles/favor-composition-over-inheritance.md)
-- [Program to an Interface, Not an Implementation](./Design%20Principles/program-to-an-interface-not-an-implementation.md)
 - [Loose Coupling](./Design%20Principles/loose-coupling.md)
+- [Encapsulate What Varies](./Design%20Principles/encapsulate-what-varies.md)
+- [Program to interfaces, Not Implementations](./Design%20Principles/Program-to-interfaces.md)
+- [Favor Composition Over Inheritance](./Design%20Principles/Favor-Composition-over-Inheritance.md)
+- [Don't Repeat Yourself (DRY)](./Design%20Principles/DRY.md)
+- [Keep It Simple, Stupid (KISS)](./Design%20Principles/KISS.md)
+- [You Aren't Gonna Need It (YAGNI)](./Design%20Principles/YAGNI.md)
+- [Separation of Concerns (SoC)](./Design%20Principles/SoC.md)
 
 ---------------------------------------------
 
@@ -117,11 +118,11 @@ These are higher-level patterns that deal with the overall organization of softw
 
 #### To Be Explored
 
-- [Client-Server](./architectural/client-server.md)
-- [Pipe-Filter](./architectural/pipe-filter.md)
-- [Service-Oriented Architecture (SOA)](./architectural/service-oriented-architecture.md)
-- [Microservices](./architectural/microservices.md)
-- [Event-Driven Architecture (EDA)](./architectural/event-driven-architecture.md)
+- [Client-Server]()
+- [Pipe-Filter]()
+- [Service-Oriented Architecture (SOA)]()
+- [Microservices]()
+- [Event-Driven Architecture (EDA)]()
 
 ---------------------------------------------
 
