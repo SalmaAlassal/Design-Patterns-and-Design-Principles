@@ -2,6 +2,8 @@
 
 * [Getting Started](README.md)
 
+* [Modeling with UML](UML/README.md)
+
 * [Design Principles](Design%20Principles/README.md)
   * **SOLID Principles**
     * [Single Responsibility Principle (SRP)](Design%20Principles/SOLID/Single_Responsibility_Principle.md)

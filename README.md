@@ -14,6 +14,8 @@ Software design principles and design patterns are essential concepts in softwar
 
 # Table of Contents
 
+- [Modeling with UML](#modeling-with-uml)
+ 
 - [Design Principles](#design-principles)
   - [SOLID Principles](#solid-principles)
   - [Other Design Principles](#other-design-principles)
@@ -24,6 +26,12 @@ Software design principles and design patterns are essential concepts in softwar
     - [Behavioral Patterns](#behavioral-patterns)
 
 - [Architectural Patterns](#architectural-patterns)
+
+---------------------------------------------
+
+# [Modeling with UML](./UML/README.md)
+
+Visualizing design patterns & design principles using UML is a great way to understand them so let's go over some UML basics.
 
 ---------------------------------------------
 
