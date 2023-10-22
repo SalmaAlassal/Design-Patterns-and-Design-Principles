@@ -46,7 +46,7 @@ When an association is drawn between two classes, it usually means that they are
 
 Aggregation is a special type of association. It describes a relationship where one class is a part of another class and can exist independently of it.
 
-Think of it as a *"has-a"* relationship. Class A has a class B.
+Think of it as a *"has-a"* relationship. Class B has a class A.
 
 ![Aggregation Diagram](/imgs/aggregation.png)
 
