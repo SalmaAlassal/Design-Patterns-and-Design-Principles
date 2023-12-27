@@ -27,6 +27,15 @@
   * [Abstract Factory](Design%20Patterns/Creational%20Patterns/abstract-factory.md)
   * [Builder](Design%20Patterns/Creational%20Patterns/builder.md)
 
+* [Structural Design Patterns](Design%20Patterns/Structural%20Patterns/README.md)
+  * [Adapter](Design%20Patterns/Structural%20Patterns/adapter.md)
+  * [Bridge](Design%20Patterns/Structural%20Patterns/bridge.md)
+  * [Composite](Design%20Patterns/Structural%20Patterns/composite.md)
+  * [Decorator](Design%20Patterns/Structural%20Patterns/decorator.md)
+  * [Facade](Design%20Patterns/Structural%20Patterns/facade.md)
+  * [Flyweight](Design%20Patterns/Structural%20Patterns/flyweight.md)
+  * [Proxy](Design%20Patterns/Structural%20Patterns/proxy.md)
+
 
 * [Architectural Patterns](Architectural%20Patterns/README.md)
   * [MVC](Architectural%20Patterns/mvc.md)

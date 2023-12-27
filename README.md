@@ -84,8 +84,6 @@ Explain how to assemble objects and classes into larger structures, while keepin
 
 #### Explained
 
-#### To Be Explored
-
 - [Adapter](./Design%20Patterns/Structural%20Patterns/adapter.md)
 - [Bridge](./Design%20Patterns/Structural%20Patterns/bridge.md)
 - [Composite](./Design%20Patterns/Structural%20Patterns/composite.md)
@@ -96,7 +94,7 @@ Explain how to assemble objects and classes into larger structures, while keepin
 
 ### [Behavioral Patterns](./Design%20Patterns/Behavioral%20Patterns/README.md)
 
-Take care of effective communication and the assignment of responsibilities between objects.
+Take care of effective commu/nication and the assignment of responsibilities between objects.
 
 #### Explained
 
